@@ -1,0 +1,5 @@
+check1.txt&Файл01
+check2.txt&Файл02
+check3.txt&Файл03
+check4.txt&Файл04
+check5.txt&Файл05

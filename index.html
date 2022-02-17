@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content=""><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="template/styles/style.css">
+    <title>File Reader v.1.0</title>
+  </head>
+  <body> 
+    <div class="wrapper">
+      <main class="main"> 
+        <div class="mainscreen">
+          <div class="container"> 
+            <div class="mainscreen__body"> 
+              <h1 class="mainscreen__title title">File <span class="title__bold">Reader </span><span class="title__small"> v.1.0</span></h1>
+              <form class="mainscreen__form form" action="#"> 
+                <select class="form__select" id="form-select" name="form-select"> 
+                  <option value="zero">Выберите значение</option>
+                </select>
+              </form>
+              <h2 class="mainscreen__subtitle subtitle">Вывод</h2>
+              <div class="mainscreen__output"></div>
+            </div>
+          </div>
+          <div class="mainscreen__pop pop"> 
+            <div class="pop__title">Вы уверены, что выполнили все задачи?</div>
+            <div class="pop__bottom"> 
+              <button id="yes">Да</button>
+              <button id="no">Нет</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="template/scripts/index.js"> </script>
+  </body>
+</html>
